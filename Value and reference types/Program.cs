@@ -43,9 +43,9 @@ namespace Value_and_reference_types
             mc = new MyClass();
             Console.WriteLine(mc);
 
-
+             
             MyStruct ms;
-            Console.WriteLine(ms);
+            //Console.WriteLine(ms);
 
 
             MyClass mc1 = new MyClass();
@@ -60,6 +60,15 @@ namespace Value_and_reference_types
             Console.WriteLine(ms1.GetHashCode());
             Console.WriteLine(ms2.GetHashCode());
 
+            List<MyClass> emmer = new List<MyClass>();
+            for (var i = 0; i < 6; i++)
+            {
+                MyClass s = new MyClass();
+                emmer.Add(s);
+            }
+            MyClass elementX = emmer[2];
+            elementX.Hoeveelheid = 5;
+            Console.WriteLine(emmer[2]);  // emmer[2] is inderdaad mee veranderd en heeft als hoeveelheid nu ook 5.
 
             
         }
