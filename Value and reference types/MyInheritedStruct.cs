@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Value_and_reference_types
 {
-    class MyInheritedStruct : MyStruct // struct is sealed dus niet mogelijk
+   /* class MyInheritedStruct : MyStruct // struct is sealed dus niet mogelijk
     {
-    }
+    }*/
 }

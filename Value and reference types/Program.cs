@@ -70,6 +70,11 @@ namespace Value_and_reference_types
             elementX.Hoeveelheid = 5;
             Console.WriteLine(emmer[2]);  // emmer[2] is inderdaad mee veranderd en heeft als hoeveelheid nu ook 5.
 
+            List<MyStruct> emmerStruct = new List<MyStruct>();
+            MyStruct elementY = emmerStruct[2];
+            elementY.Hoeveelheid = 2;
+            Console.WriteLine(emmerStruct[2]);
+
             
         }
     }
