@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MyClass.cs" />
+    <Compile Include="MyInheritedClass.cs" />
+    <Compile Include="MyInheritedStruct.cs" />
     <Compile Include="MyStruct.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
