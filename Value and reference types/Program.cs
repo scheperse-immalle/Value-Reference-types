@@ -50,13 +50,18 @@ namespace Value_and_reference_types
 
             MyClass mc1 = new MyClass();
             MyClass mc2 = new MyClass();
+            MyClass mc3 = new MyClass() { Beschrijving = "mc3", Hoeveelheid = 4 };
             MyStruct ms1 = new MyStruct();
             MyStruct ms2 = new MyStruct();
+            MyStruct ms3 = new MyStruct() { Beschrijving = "ms3", Hoeveelheid = 3 };
 
             Console.WriteLine(mc1.GetHashCode());
             Console.WriteLine(mc2.GetHashCode());
             Console.WriteLine(ms1.GetHashCode());
             Console.WriteLine(ms2.GetHashCode());
+
+
+            
         }
     }
 
